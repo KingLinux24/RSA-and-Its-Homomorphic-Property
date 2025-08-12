@@ -89,15 +89,15 @@ rsa-homomorphic-assignment/
 
 
 ## Example Output
-[A] RSA keys generated:
-    p = 67, q = 71
-    n = 4757, e = 5, d = 1865
-[A] Listening on 127.0.0.1:9000 ...
+[A] RSA keys generated: <br>
+    p = 67, q = 71 <br>
+    n = 4757, e = 5, d = 1865 <br>
+[A] Listening on 127.0.0.1:9000 ... <br>
 
-[B][Scenario1] Plaintext m=15, ciphertext c=759
-[A][Scenario1] Decrypted message: 15
+[B][Scenario1] Plaintext m=15, ciphertext c=759 <br>
+[A][Scenario1] Decrypted message: 15 <br>
 
-[A][Scenario2] Decrypted product (m1*m2 mod n): 315
+[A][Scenario2] Decrypted product (m1*m2 mod n): 315<br>
 
 
 
