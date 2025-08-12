@@ -56,3 +56,51 @@ Implement a two-party socket communication system (User A and User B) and demons
 ---
 
 ## **Folder Structure**
+
+rsa-homomorphic-assignment/
+│
+├── user_a.py # User A (server) – key generation, decryption, relay
+├── user_b.py # User B (client) – encryption, send ciphertext
+├── user_c.py # User C (client) – encryption, multiplication
+├── README.md # Documentation
+└── LICENSE # License file
+
+
+
+
+---
+
+## **Running the Programs**
+1. **Start User A (Server):**
+
+
+   `bash`
+  ` python3 user_a.py`<br>
+  
+2.**Run User B (Client):**
+
+
+`python3 user_b.py`<br>
+
+3.**Run User C (Client) (Scenario 2 only):**
+
+
+`python3 user_c.py`
+
+
+## Example Output
+[A] RSA keys generated:
+    p = 67, q = 71
+    n = 4757, e = 5, d = 1865
+[A] Listening on 127.0.0.1:9000 ...
+
+[B][Scenario1] Plaintext m=15, ciphertext c=759
+[A][Scenario1] Decrypted message: 15
+
+[A][Scenario2] Decrypted product (m1*m2 mod n): 315
+
+
+
+
+
+
