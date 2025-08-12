@@ -36,6 +36,10 @@ Implement a two-party socket communication system (User A and User B) and demons
 
 ---
 
+<img width="1711" height="911" alt="image" src="https://github.com/user-attachments/assets/72d2d4a5-4fff-4ae4-b651-1043e7d73a85" />
+
+---
+
 ## **How It Works**
 - **RSA Key Generation:**  
   - Random 6-bit prime numbers for `p` and `q`  
@@ -98,6 +102,8 @@ rsa-homomorphic-assignment/
 [A][Scenario1] Decrypted message: 15 <br>
 
 [A][Scenario2] Decrypted product (m1*m2 mod n): 315<br>
+
+
 
 
 
